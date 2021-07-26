@@ -20,6 +20,7 @@ void  setup(){
     fy = rand() % (height-1);
     score =0;
 }
+
 void draw(){
     system("cls");
     for(int i=0 ;i<width+2;i++) printf("#");
